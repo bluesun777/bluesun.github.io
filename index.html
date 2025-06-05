@@ -1,24 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-    <body>
-    <h1>Bienvenido a mi página web</h1>
-    <p>Esta es una página muy simple hecha solo con HTML.</p>
-    
-    <h2>Secciones</h2>
-    <ul>
-        <li>Inicio</li>
-        <li>Sobre mí</li>
-        <li>Contacto</li>
-    </ul>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-    <h2>Imagen de ejemplo</h2>
-    <img src="https://via.placeholder.com/300" alt="Imagen de ejemplo">
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            width: 100%;
+            text-align: center;
+        }
 
-    <h2>Enlace</h2>
-    <p>Visita <a href="https://www.google.com" target="_blank">Google</a></p>
-</body>
+        main {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px 0;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página</h1>
+    </header>
+
+    <main>
+        <p>Inicio</p>
+        
+        <h2>Secciones</h2>
+        <ul>
+            <li>Inicio</li>
+            <li>Sobre mí</li>
+            <li>Contacto</li>
+        </ul>
+
+        <h2>Imagen de ejemplo</h2>
+        <img src="https://via.placeholder.com/600x300" alt="Imagen de ejemplo">
+
+        <h2>Enlace</h2>
+        <p>Visita <a href="https://www.google.com" target="_blank">Google</a></p>
+    </main>
+
     <footer>
-        <p>© 2025 GitHub</p>
+        &copy; 2025 - GitHub Page
     </footer>
-
+</body>
 </html>
